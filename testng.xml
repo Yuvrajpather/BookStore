@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test thread-count="5" name="Registration And Login Test">
+		<classes>
+			<class name="Testpackage.LoginAndLogout" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Homepage Test">
+		<classes>
+			<class name="Testpackage.HomePage" />
+		</classes>
+	</test>
+
+	<test name="Placing Order test">
+		<classes>
+			<class name="Testpackage.ProductBuyFlow" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
