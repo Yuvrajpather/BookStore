@@ -16,3 +16,4 @@ For checking basic functionalities of the website three modules are made. These 
 All these modules contain test cases which help in testing basic functionalities of the website. 
 There are total 19 test cases. Each testcase includes assertion at the end which compares the actual result and expected result. 
 
+src/test/java/testpackage - contain files of the modules
